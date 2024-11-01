@@ -1,10 +1,6 @@
-def greet(name):
-    return "Hello, {name}!"
+import calculator_return.py as calci_module
 
-message = greet(1)
-print(message)
+#calci_module
 
-
-
-def propose(lover):
-    return "I too love you "
+calci_module.addition(3, 4)
+print(calci_module)

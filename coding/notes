@@ -1,0 +1,35 @@
+Functions: Takes the input -> performs the logic _> returns the output
+
+eg: ref calculator_return.py
+
+Modules: A module contains group of fuctions where anyone can be used calling module. By default any python program is a module.
+
+(modularity, reuseability)
+
+import calculator.py --> this .py file can be anywhere can be used by providing right path. 
+
+eg: Assume calling calculator.py functions in calculator_modules.py
+
+import calculator.py as calci_module
+
+calci_module
+
+#"as" is used for alias, we can also import single fuction from module like only addition or sub ..etc
+
+eg: calling a single function from the module
+
+import calculator.py as calci_module
+
+calci_module.addition()
+
+Packages: collections of modules is called packing, a bundle of python files is called package or library. Most of the moules for aws, git or jira are already avaialble we can call them from pypi(PythonPackageIndex)
+https://pypi.org/
+
+To use these package we simple use pip --> pip install git or pip install jira or pip install boto3. pip list to list all the packages installed.
+
+Virtual Machine/env: In some cases there might be a multiple projects in a machince or ecwhere each project required different versions of softwares so in python we have concept virtual env which logically separates the project env.
+
+pip install virtualenv  --> python -m venv project1 --> source project1/bin/activate --> deactivate
+
+
+
